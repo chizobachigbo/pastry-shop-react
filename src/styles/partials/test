@@ -1,0 +1,27 @@
+.cart__counter {
+  display: flex;
+  .cart__input {
+    border: 1px solid var(--yellow-accent);
+    background-color: var(--background-color) !important;
+    width: 2.2rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      font-size: clamp(0.6rem, 2.5vw, 0.8rem);
+      line-height: 0;
+    }
+  }
+}
+
+<div
+className="cart__input"
+type="text"
+id="input"
+min="0"
+max="100"
+>
+<p>{cart.amount}</p>
+</div>

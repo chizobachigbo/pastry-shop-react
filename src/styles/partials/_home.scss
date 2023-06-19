@@ -1,0 +1,57 @@
+.landing-page {
+  .hero {
+    height: 52vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("hero_img.jpg") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: var(--pink-accent);
+
+    .intro {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      h1 {
+        color: var(--pink-accent);
+      }
+
+      .btn {
+        align-self: center;
+      }
+    }
+  }
+
+  .aboutUs {
+    display: flex;
+    gap: 20px;
+    img {
+      flex: 1;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+    .aboutUs__def {
+      flex: 1;
+    }
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .hero {
+    .intro {
+      text-align: center;
+    }
+  }
+  .aboutUs {
+    display: block !important;
+
+    .aboutUs__def {
+      margin-bottom: 1.3rem;
+    }
+  }
+}
