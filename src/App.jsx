@@ -43,8 +43,8 @@ function App() {
           wishlistSelection={wishlistSelection}
         />
         <div className="container main">
-          <Routes basename="pastry-shop-react/">
-            <Route exact path="pastry-shop-react/" element={<Home />}></Route>
+          <Routes basename="/pastry-shop-react/">
+            <Route exact path="/pastry-shop-react/" element={<Home />}></Route>
             <Route
               path="/shop"
               element={
