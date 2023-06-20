@@ -1,15 +1,18 @@
 import React from "react";
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import ShopPastry from "../components/ShopPastry";
 
 export default function Home() {
   return (
     <div className="landing-page">
       <div className="hero">
-        <div className="intro">
-          <h1>Welcome to Dennie's Bakery</h1>
-          <Link className="btn"  to="/shop">shop now</Link>
-        </div>
+        <img src="hero_img.jpg" alt="hero image"></img>
+          <div className="intro">
+            <h1>Welcome to Dennie's Bakery</h1>
+            <Link className="btn" to="/shop">
+              shop now
+            </Link>
+          </div>
       </div>
 
       <div className="aboutUs section">
