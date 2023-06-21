@@ -8,11 +8,6 @@
       display: flex;
       gap: 5px;
       .search__input {
-        // border: 1px solid var(--pink-accent);
-        // border-radius: 8px;
-        // width: 100%;
-        // max-width: 300px;
-
         input {
           background-color: var(--background-color) !important;
           border: 1px solid var(--pink-accent);
@@ -54,7 +49,7 @@
 
   .pastries {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     grid-template-rows: auto;
     grid-gap: 1.3rem;
     .pastry {

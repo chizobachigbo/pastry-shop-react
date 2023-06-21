@@ -14,7 +14,7 @@ export default function Navbar({cartSelection, wishlistSelection}) {
     <>
       <div className="navbar container">
         <div className="name-logo">
-          <img src="store-logo.png"></img>
+          <Link to="pastry-shop-react/" href="!#" className="company-logo"><img src="store-logo.png"></img> </Link>
           <Link to="pastry-shop-react/" href="!#" className="company-name">
             Dennie's
           </Link>

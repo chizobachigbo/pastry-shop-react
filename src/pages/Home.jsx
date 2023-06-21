@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ShopPastry from "../components/ShopPastry";
 
 export default function Home() {
   return (
