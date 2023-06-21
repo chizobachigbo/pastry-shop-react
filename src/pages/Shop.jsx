@@ -29,7 +29,7 @@ export default function Shop({
   }, [input]);
 
   const sortSearch = (e) => {
-    setInput(e.target.value);
+    setInput(e.target.value.toLowerCase());
     setPastries(
       pastryList.map((pastry) => {
         const pastrySorting = pastry.product.includes(input);

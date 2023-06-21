@@ -55,8 +55,6 @@ export default function Cart({
       newInput = typedInput;
     }
 
-    console.log(newInput);
-
     setCartSelection(
       cartSelection.map((pastry) => {
         if (pastry.id === pastryId) {
