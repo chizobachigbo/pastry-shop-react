@@ -117,21 +117,11 @@
 }
 
 @media screen and (max-width: 468px) {
-  .nav-links {
-    .home {
-      display: none;
-    }
-  }
-}
-
-
-@media screen and (max-width: 368px) {
   .name-logo {
     .company-name {
      display: none;
     }
   }
-
   .nav-links {
     .home {
       display: none;

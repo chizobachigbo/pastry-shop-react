@@ -239,24 +239,20 @@
 
 @media screen and (max-width: 400px) {
   .cart__card {
-    .cart__description {
-      width: 100%;
-      max-width: 3rem !important;
-    }
-  }
-}
-
-@media screen and (max-width: 368px) {
-  .cart__card {
     img {
       width: 2.5rem !important;
       height: 2.5rem !important;
     }
-  }
-  .cart__details{
-    margin: 0 8px !important;
-  }
-  .cart__quantity{
-    margin: 0 8px !important;
+    .cart__description {
+      width: 100%;
+      max-width: 3rem !important;
+    }
+
+    .cart__details {
+      margin: 0 8px !important;
+    }
+    .cart__quantity {
+      margin: 0 8px !important;
+    }
   }
 }
