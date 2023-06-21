@@ -237,7 +237,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 386px) {
   .cart__card {
     img {
       width: 2.5rem !important;
@@ -245,7 +245,7 @@
     }
     .cart__description {
       width: 100%;
-      max-width: 3rem !important;
+      max-width: 8rem !important;
     }
 
     .cart__details {
@@ -253,6 +253,15 @@
     }
     .cart__quantity {
       margin: 0 8px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cart__card {
+    .cart__description {
+      width: 100%;
+      max-width: 4rem !important;
     }
   }
 }
