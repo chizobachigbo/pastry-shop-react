@@ -25,7 +25,7 @@ export default function Wishlist({
           setCartSelection([
             ...cartSelection,
             {
-              amount: 1,
+              quantity: 1,
               id: pastry.id,
               img: pastry.img,
               price: pastry.price,
