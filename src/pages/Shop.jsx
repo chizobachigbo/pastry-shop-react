@@ -1,6 +1,6 @@
 import React from "react";
 import pastryList from "../pastries.json";
-import { BsFillCartFill } from "react-icons/bs";
+import { BsFillCartPlusFill } from "react-icons/bs";
 import { BsFillHeartFill } from "react-icons/bs";
 import { useState, useEffect } from "react";
 import FormatPrice from "../helpers/FormatPrice";
@@ -190,7 +190,7 @@ export default function Shop({
                 alt={pastry.description}
               ></img>
               <span className="store__cart" onClick={addToCart} id={pastry.id}>
-                <BsFillCartFill />
+                <BsFillCartPlusFill />
               </span>
               <span
                 className="store__wishlist"

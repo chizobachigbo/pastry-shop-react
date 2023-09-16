@@ -15,7 +15,7 @@ export default function Home() {
       </div>
 
       <div className="aboutUs section">
-        <div class="aboutUs__def">
+        <div className="aboutUs__def">
           <h2>About Us</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
