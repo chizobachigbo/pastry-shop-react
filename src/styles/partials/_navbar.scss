@@ -77,19 +77,19 @@
       }
       .wishlist__count {
         background-color: var(--pink-accent);
-        color: var(--background-color);
+        color: var(--text-color);
         padding: 0rem 0.2rem;
         position: absolute;
         left: 10px;
         top: -13px;
-        font-size: 0.4rem;
+        font-size: 0.8rem;
         font-weight: bold;
         border-radius: 50%; 
         overflow: hidden;
-        width: 1rem;
-        height: 1rem;
+        width: 1.3rem;
+        height: 1.3rem;
         text-align: center;
-        line-height: 15px;
+        line-height: 20px;
       }
     }
 
@@ -105,14 +105,14 @@
         position: absolute;
         left: 10px;
         top: -13px;
-        font-size: 0.4rem;
+        font-size: 0.8rem;
         font-weight: bold;
         border-radius: 50%;
         overflow: hidden;
-        width: 1rem;
-        height: 1rem;
+        width: 1.3rem;
+        height: 1.3rem;
         text-align: center;
-        line-height: 15px;
+        line-height: 20px;
       }
     }
   }

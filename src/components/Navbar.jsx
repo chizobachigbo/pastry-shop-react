@@ -5,16 +5,18 @@ import { BsFillCartFill } from "react-icons/bs";
 import { BsFillHeartFill } from "react-icons/bs";
 import Wishlist from "../pages/Wishlist";
 
-export default function Navbar({cartSelection, wishlistSelection}) {
-  const location = useLocation();   
-  const cartCount= cartSelection.length;
+export default function Navbar({ cartSelection, wishlistSelection }) {
+  const location = useLocation();
+  const cartCount = cartSelection.length;
   const wishlistCount = wishlistSelection.length;
 
   return (
     <>
       <div className="navbar container">
         <div className="name-logo">
-          <Link to="pastry-shop-react/" href="!#" className="company-logo"><img src="store-logo.png"></img> </Link>
+          <Link to="pastry-shop-react/" href="!#" className="company-logo">
+            <img src="store-logo.png"></img>{" "}
+          </Link>
           <Link to="pastry-shop-react/" href="!#" className="company-name">
             Dennie's
           </Link>
@@ -23,16 +25,16 @@ export default function Navbar({cartSelection, wishlistSelection}) {
         <div className="nav-links">
           <NavLink
             className={
-              location.pathname === "pastry-shop-react/" ? "active home" : "home"
+              location.pathname === "pastry-shop-react/"
+                ? "active home"
+                : "home"
             }
             to="pastry-shop-react/"
           >
             Home
           </NavLink>
           <NavLink
-            className={
-              location.pathname === "/shop" ? "active shop" : "shop"
-            }
+            className={location.pathname === "/shop" ? "active shop" : "shop"}
             to="/shop"
           >
             Shop
@@ -44,14 +46,24 @@ export default function Navbar({cartSelection, wishlistSelection}) {
             to="/wishlist"
           >
             <BsFillHeartFill />
-            <div className="wishlist__count">{wishlistCount}</div>
+            <div
+              className="wishlist__count"
+              style={{ display: wishlistCount === 0 ? "none" : "block" }}
+            >
+              {wishlistCount}
+            </div>
           </NavLink>
           <NavLink
             className={location.pathname === "/cart" ? "active cart" : "cart"}
             to="/cart"
           >
             <BsFillCartFill />
-            <div className="cart__count">{cartCount}</div>
+            <div
+              className="cart__count"
+              style={{ display: cartCount === 0 ? "none" : "block" }}
+            >
+              {cartCount}
+            </div>
           </NavLink>
         </div>
       </div>

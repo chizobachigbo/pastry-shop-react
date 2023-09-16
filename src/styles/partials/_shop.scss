@@ -75,6 +75,7 @@
             transform: scale(1.2);
           }
         }
+
         .store__cart {
           position: absolute;
           bottom: 0;
@@ -85,7 +86,7 @@
           transition: all 1s ease-in-out;
           transform: translate(100%, 100%);
           line-height: 0;
-          svg{
+          svg {
             font-size: 2rem !important;
           }
         }
@@ -100,7 +101,7 @@
           transition: all 1s ease-in-out;
           transform: translate(-100%, 100%);
           line-height: 0;
-          svg{
+          svg {
             font-size: 2rem !important;
           }
         }
@@ -129,9 +130,3 @@
   }
 }
 
-@media screen and (max-width: 680px) {
-  // .sub-nav {
-  //   // display: none !important;
-  //   gap: 10px !important;
-  // }
-}

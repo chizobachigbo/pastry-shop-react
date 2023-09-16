@@ -42,10 +42,15 @@
               overflow: hidden;
               text-overflow: ellipsis;
             }
+
           }
 
           .pastry__price {
             color: var(--pink-accent);
+          }
+          
+          .pastry__product {
+            font-size: 0.9rem !important;
           }
         }
 
