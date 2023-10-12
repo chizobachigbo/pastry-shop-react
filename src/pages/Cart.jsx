@@ -154,7 +154,7 @@ export default function Cart({
         <div className="cart__pastries">
           {cartSelection.map((cart) => (
             <div className="cart__card card-path" key={cart.id}>
-              <img src={"./pastry-shop-react/" + cart.img} alt={cart.description}></img>
+              <img src={cart.img} alt={cart.description}></img>
               <div className="cart__info">
                 <div className="cart__details">
                   <div className="cart__description">

@@ -186,7 +186,7 @@ export default function Shop({
             <div className="pastry__image">
               <img
                 className="img__container"
-                src={"./pastry-shop-react/" + pastry.img}
+                src={pastry.img}
                 alt={pastry.description}
               ></img>
               <span className="store__cart" onClick={addToCart} id={pastry.id}>

@@ -85,7 +85,7 @@ export default function Wishlist({
             <div className="wishlist__pastry" key={wish.id}>
               <img
                 className="pastry__image"
-                src={"./pastry-shop-react/" + wish.img}
+                src={wish.img}
                 alt={wish.description}
               ></img>
               <p className="pastry__description">{wish.description}</p>

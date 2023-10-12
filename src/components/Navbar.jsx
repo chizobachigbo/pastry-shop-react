@@ -14,10 +14,10 @@ export default function Navbar({ cartSelection, wishlistSelection }) {
     <>
       <div className="navbar container">
         <div className="name-logo">
-          <Link to="pastry-shop-react/" href="!#" className="company-logo">
+          <Link to="/" href="!#" className="company-logo">
             <img src="store-logo.png"></img>{" "}
           </Link>
-          <Link to="pastry-shop-react/" href="!#" className="company-name">
+          <Link to="/" href="!#" className="company-name">
             Dennie's
           </Link>
         </div>
@@ -25,11 +25,11 @@ export default function Navbar({ cartSelection, wishlistSelection }) {
         <div className="nav-links">
           <NavLink
             className={
-              location.pathname === "pastry-shop-react/"
+              location.pathname === "/"
                 ? "active home"
                 : "home"
             }
-            to="pastry-shop-react/"
+            to="/"
           >
             Home
           </NavLink>
