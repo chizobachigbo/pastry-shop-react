@@ -1,7 +1,6 @@
 
 {
   "name": "bakery-shop",
-  "homepage": "https://chizobachigbo.github.io/pastry-shop-react/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
